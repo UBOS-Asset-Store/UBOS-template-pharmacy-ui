@@ -10254,7 +10254,7 @@
                                                     },
                                                     "Text16": {
                                                         "isVisible": true,
-                                                        "text": "{{List2.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Objectif';\n              })();\n            })}}",
+                                                        "text": "{{List2.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Objective';\n              })();\n            })}}",
                                                         "fontSize": "{{List2.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'HEADING3';\n              })();\n            })}}",
                                                         "fontStyle": "BOLD",
                                                         "textAlign": "{{List2.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'CENTER';\n              })();\n            })}}",
@@ -11295,7 +11295,7 @@
                                                                                             },
                                                                                             {
                                                                                                 "isVisible": true,
-                                                                                                "text": "Objectif",
+                                                                                                "text": "Objective",
                                                                                                 "fontSize": "HEADING3",
                                                                                                 "fontStyle": "BOLD",
                                                                                                 "textAlign": "CENTER",
@@ -17424,7 +17424,7 @@
                                                                 "leftColumn": 0,
                                                                 "rightColumn": 64,
                                                                 "topRow": 0,
-                                                                "bottomRow": 4,
+                                                                "bottomRow": 5,
                                                                 "parentId": "b7vup1embo",
                                                                 "dynamicBindingPathList": [],
                                                                 "dynamicTriggerPathList": []
@@ -17455,7 +17455,7 @@
                                                                 "leftColumn": 0,
                                                                 "rightColumn": 64,
                                                                 "topRow": 27,
-                                                                "bottomRow": 31,
+                                                                "bottomRow": 32,
                                                                 "parentId": "b7vup1embo",
                                                                 "dynamicBindingPathList": [],
                                                                 "dynamicTriggerPathList": []
@@ -17818,7 +17818,7 @@
                                                 "leftColumn": 0,
                                                 "rightColumn": 55,
                                                 "topRow": 1,
-                                                "bottomRow": 5,
+                                                "bottomRow": 6,
                                                 "parentId": "10dy5kj9f1",
                                                 "dynamicBindingPathList": [
                                                     {
