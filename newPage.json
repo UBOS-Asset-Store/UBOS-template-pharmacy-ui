@@ -34278,7 +34278,7 @@
                                 "dynamicTriggerPathList": []
                             },
                             {
-                                "width": 967.0999999999999,
+                                "width": 597.55,
                                 "height": 658,
                                 "canEscapeKeyClose": true,
                                 "animateLoading": true,
@@ -34905,7 +34905,7 @@
                                                                         "key": "onClick"
                                                                     }
                                                                 ],
-                                                                "onClick": "{{createProduct.run(() => ( showAlert(\"Product successfully added\",\"success\"), getCampaignsByUserId.run()), () => {})}}",
+                                                                "onClick": "{{createProduct.run(() => ( showAlert(\"Product successfully added\",\"success\"), getCampaignInfo.run()), () => {})}}",
                                                                 "dynamicPropertyPathList": [
                                                                     {
                                                                         "key": "onClick"
@@ -35316,7 +35316,7 @@
                                                                         "key": "onClick"
                                                                     }
                                                                 ],
-                                                                "onClick": "{{createProduct.run(() => ( showAlert(\"Product successfully added\",\"success\"), getCampaignsByUserId.run()), () => {})}}",
+                                                                "onClick": "{{createProduct.run(() => ( showAlert(\"Product successfully added\",\"success\"), getCampaignInfo.run()), () => {})}}",
                                                                 "dynamicPropertyPathList": [
                                                                     {
                                                                         "key": "onClick"
