@@ -65,7 +65,7 @@
                                         "index": 1
                                     }
                                 },
-                                "shouldShowTabs": false,
+                                "shouldShowTabs": true,
                                 "defaultTab": "{{checkData.data.length < 1 ? 'settings': 'login'}}",
                                 "version": 3,
                                 "type": "TABS_WIDGET",
@@ -347,7 +347,8 @@
                                                                                 ],
                                                                                 "dynamicTriggerPathList": [],
                                                                                 "validation": "{{setUpAppPass.text.length > 7}}",
-                                                                                "tooltip": "Password must be at least 8 characters"
+                                                                                "tooltip": "",
+                                                                                "errorMessage": "Password must be at least 8 characters"
                                                                             },
                                                                             {
                                                                                 "isVisible": "{{makeSetting.responseMeta.statusCode==='200'}}",
