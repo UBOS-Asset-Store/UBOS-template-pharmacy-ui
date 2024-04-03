@@ -65,7 +65,7 @@
                                         "index": 1
                                     }
                                 },
-                                "shouldShowTabs": false,
+                                "shouldShowTabs": true,
                                 "defaultTab": "{{checkData.data.length < 1 ? 'settings': 'login'}}",
                                 "version": 3,
                                 "type": "TABS_WIDGET",
@@ -340,8 +340,14 @@
                                                                                 "topRow": 28,
                                                                                 "bottomRow": 32,
                                                                                 "parentId": "7xd52noa36",
-                                                                                "dynamicBindingPathList": [],
-                                                                                "dynamicTriggerPathList": []
+                                                                                "dynamicBindingPathList": [
+                                                                                    {
+                                                                                        "key": "validation"
+                                                                                    }
+                                                                                ],
+                                                                                "dynamicTriggerPathList": [],
+                                                                                "validation": "{{setUpAppPass.text.length > 7}}",
+                                                                                "tooltip": "Password must be at least 8 characters"
                                                                             },
                                                                             {
                                                                                 "isVisible": "{{makeSetting.responseMeta.statusCode==='200'}}",
