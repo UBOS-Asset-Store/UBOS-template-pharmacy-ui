@@ -65,7 +65,7 @@
                                         "index": 1
                                     }
                                 },
-                                "shouldShowTabs": true,
+                                "shouldShowTabs": false,
                                 "defaultTab": "{{checkData.data.length < 1 ? 'settings': 'login'}}",
                                 "version": 3,
                                 "type": "TABS_WIDGET",
